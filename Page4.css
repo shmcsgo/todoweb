@@ -1,0 +1,195 @@
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-container
+{
+    margin-top:3%;
+    width: 40%;
+    height: 30px;
+    margin-left:30%;
+    border-bottom: 1px solid gray;
+    text-align: center
+}
+
+
+.trip-to-paris
+{
+    font-size: 65px;
+    background-color: white;
+    padding: 0 10px;
+    color:#2D2424;
+    font-weight: 700;
+}
+
+.fafa_back
+{
+    position:absolute;
+    top:20%;
+    left:46%;
+}
+
+.back{
+    position: relative;
+    bottom: 5px;
+    margin-left: 12px;
+    color:gray;
+    font-size: 200%;
+}
+
+.cards
+{
+    display: flex;
+    width:100%;
+    height: 35%;
+    position: absolute;
+    left:520px;
+    margin-top:0px;
+}
+
+.card
+{
+    border:#FF5403 1px solid;
+    width:23%;
+    height:120%;
+    padding-top: 2%;
+    margin-left: 11%;
+    margin-top: 10%;
+    border-radius: 10px;
+    position:relative;
+    box-shadow: 5px 10px 4px 5px lightgray;
+}
+
+
+.card-content-1
+{
+    width:65%;
+    color:#FF5403;
+    margin-left:20px;
+    padding-bottom:10px;
+    font-size: 31px;
+    position: absolute;
+    right:0;
+    text-align: left;
+    border-bottom:1px solid gray;
+}
+
+.card-content-2
+{
+    position: absolute;
+    left:35%;
+    top:23%;
+    text-decoration: line-through;
+    color:#C24914;
+    font-size: x-large;
+    font-weight: 400;
+    margin-right: 5px;
+
+}
+
+.card-content-3
+{
+    position: absolute;
+    top:40%;
+    left:35%;
+    font-size: x-large;
+    color:rgb(68, 66, 66)
+}
+
+#check
+{
+    position: absolute;
+    top:40%;
+    left:28%;
+    width: 20px;
+    height: 20px;
+}
+
+.circle
+{
+    position: absolute;
+    right:3%;
+    bottom:3%;
+}
+
+.blurit
+{
+    height: 800px;
+    filter: blur(7px);
+    -webkit-filter: blur(7px);
+}
+
+.pop-up
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    position: absolute;
+    left:37%;
+    top:30%;
+    border:#FF5403 1px solid;
+    width: 25%;
+    height: 15%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 10px lightgray;
+}
+
+.pop-up-content1
+{
+    font-size: 150%;
+    position: relative;
+    color:#FF5403;
+    left:35%;
+}
+
+.pop-up-content2
+{
+    border: 1px solid #FF5403;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px lightgray;
+    width: 60%;
+    height: 30px;
+    margin-top: 4%;
+    position: relative;
+    left:20%;
+}
+
+.but
+{
+    position: relative;
+    left: 40%;
+    margin-top: 4%;
+    color: white;
+    outline: none;
+    padding: 1% 3%;
+    font-size: 150%;
+    border: 1px solid #FF5403;
+    background-color: #FF5403;
+    border-radius: 30px;
+}
+
+.buttons
+{
+    font-size: larger;
+    color:gray;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+
+.bottom-bar
+{
+    position: absolute;
+    bottom: 2%;
+    left:50%;
+    color: gray;
+}
+
+.links
+{
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+}
